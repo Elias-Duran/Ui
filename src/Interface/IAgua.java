@@ -1,3 +1,5 @@
+package Interface;
+
 public interface IAgua  {
     public void atacarHidrobomba();
     public void atacarBurbuja();

@@ -1,5 +1,9 @@
-public class Bulbasaur extends Pokemon implements IPlanta{
-    public Bulbasaur() {
+import Actracta.Pokemon;
+import Interface.IPlanta;
+
+public class Bulbasaur extends Pokemon implements IPlanta {
+    public Bulbasaur(int id,String nombre,String tipo) {
+        super(id,nombre,tipo);
     }
 
     @Override

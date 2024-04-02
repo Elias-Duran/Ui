@@ -1,5 +1,9 @@
-public class Squirtle extends Pokemon implements IAgua{
-    public Squirtle() {
+import Actracta.Pokemon;
+import Interface.IAgua;
+
+public class Squirtle extends Pokemon implements IAgua {
+    Squirtle(int id, String nombre,String tipo){
+        super(id,nombre,tipo);
     }
 
     @Override

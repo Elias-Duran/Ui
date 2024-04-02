@@ -1,5 +1,9 @@
-public class Charmander extends Pokemon implements IFuego{
-    public Charmander() {
+import Actracta.Pokemon;
+import Interface.IFuego;
+
+public class Charmander extends Pokemon implements IFuego {
+    Charmander(int id, String nombre,String tipo){
+        super(id,nombre,tipo);
     }
 
     @Override

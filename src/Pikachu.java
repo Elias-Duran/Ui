@@ -1,5 +1,9 @@
-public class Pikachu extends Pokemon implements IElectrico{
-    public Pikachu() {
+import Actracta.Pokemon;
+import Interface.IElectrico;
+
+public class Pikachu extends Pokemon implements IElectrico {
+    Pikachu(int id, String nombre,String tipo){
+        super(id,nombre,tipo);
     }
 
     @Override
